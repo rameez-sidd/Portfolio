@@ -1,0 +1,118 @@
+o#welcome-section{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+    min-width: 100%;
+}
+#welcome-message-container{
+    display: grid;
+    place-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+#welcome-message{
+    margin: 170px 0;
+    min-width: 72%;
+    max-width: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    color: #ffffff;
+}
+#hey-line{
+    font-size: 2.3rem;           
+    margin-left: -3px; 
+}
+#name{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-left: -4px; 
+}
+#profession{
+    font-size: 2.3rem;
+    margin-left: -3px; 
+}
+#yellow-font{
+    color: rgb(189, 189, 4);
+}
+#intro-line{
+    font-size: 1.3rem;
+}
+#resume-btn{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 8px 30px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+#resume-btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+}
+#about-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#about-text-section{
+    margin: 50px 30px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#about-text-heading{
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+#about-image-section{
+    background-image: url('../images/profilecrop.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#quotes-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+    padding: 50px 0;
+}
+.quotes-icon{
+    font-size: 60px;
+    color: #ffffff;
+    visibility: hidden;
+}
+#quotes-content{
+    font-family: 'VT323', monospace;
+    text-align:center;
+    line-height: 33px;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    color: rgb(3, 155, 3);
+    max-width: 85%;
+    min-width: 80%;
+}
+#quotes-author{
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+

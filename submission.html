@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="icon" href="./images/tabicon.png" width="31px">
+    <script src="https://kit.fontawesome.com/5832330df5.js" crossorigin="anonymous"></script>
+    <title>Thank You !</title>
+    <style>
+        section{
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            background-color: rgb(12, 39, 38);
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 2px #0000003b;
+            padding: 30px 50px;
+            background-color: white;
+            max-width: 90%;
+        }
+        .title{
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        .btn:is(:link, :visited){
+            background-color: black;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:is(:hover, :active){
+            background-color: rgb(97, 97, 97);
+        }
+        @media (max-width:416px){
+            #container{
+                padding: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="container">
+            <div class="items title">Thank You !</div>
+            <div class="items msg">Your submission has been received.</div>
+            <a href="contact.html" class="items btn">Go Back</a>
+        </div>
+    </section>
+</body>
+</html>

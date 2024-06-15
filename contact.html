@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/other-pages-common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contact-responsive.css">
+    <link rel="icon" href="./images/tabicon.png" width="31px">
+    <script src="https://kit.fontawesome.com/5832330df5.js" crossorigin="anonymous"></script>
+    <script src="js/menu.js" defer></script>
+    <title>CONTACT | Rameez Siddiqui</title>
+</head>
+<body id="body-section">
+    <!-- HEADER SECTION MOBILE -->
+    <section id="mobile-header-section">
+        <header id="mobile-header-container">
+            <a class="mobile-header-items" id="menu-icon-container"><i class="fa-solid fa-bars" id="menu-icon"></i></a>
+        </header>
+    </section>
+
+    <!-- NAVBAR SECTION MOBILE -->
+    <section id="mobile-navbar-section" style="top:-100%;">
+        <div id="mobile-navbar-container">
+            <a href="index.html" class="mobile-navbar-items">Home</a>
+            <a href="resume.html" class="mobile-navbar-items">Resume</a>
+            <a href="project.html" class="mobile-navbar-items">Project</a>
+            <a href="blog.html" class="mobile-navbar-items">Blog</a>
+        </div>
+    </section>
+
+
+    <!-- NAVBAR SECTION -->
+    <section id="navbar-container">
+        <a href="resume.html" class="navbar-items">Resume</a>
+        <a href="project.html" class="navbar-items">Project</a>
+        <a href="index.html" class="navbar-items">Home</a>
+        <a href="blog.html" class="navbar-items">Blog</a>
+        <a href="contact.html" class="navbar-items current-page">Contact</a>
+    </section>
+
+    <!-- WELCOME SECTION -->
+    <section id="welcome-section">
+        <div class="welcome-section-items" id="other-pages-welcome-message-container">
+            <div id="other-pages-welcome-message">
+                <div class="other-pages-welcome-message-items" id="welcome-title">CONTACT</div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-section">
+        <div class="contact-section-items" id="contact-container">
+            <div class="contact-items" id="contact-text-section">
+                <div id="contact-heading">Say Hello !</div>
+                <div id="contact-para">Drop me a line & I'll try my best to respond to all sorts of messages.</div>
+                <div id="contact-details">
+                    <a href="mailto:siddrameez71@gmail.com" class="contact-links">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>siddrameez71@gmail.com</span>
+                    </a>
+                    <a href="tel:8303263283" class="contact-links">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91-8303263283</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-items" id="contact-form-section">
+                <form id="contact-form-container" action="submission.html" name="contact-form" autocomplete="off" method="post" netlify>
+                    <div class="form-items">
+                        <input type="text" name="name" id="name" maxlength="50" placeholder="Name" pattern="[A-Za-z ]{1,50}" title="Enter your Name" required>
+                    </div>
+                    <div class="form-items">
+                        <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9]{1,100}[@]{1}[a-z0-9]{1,100}[.]{1}[a-z]{1,10}" title="Enter your Email" required>
+                    </div>
+                    <div class="form-items">
+                        <textarea name="message" id="message" placeholder="Message" title="Leave a message" required></textarea>
+                    </div>
+                    <div class="form-items">
+                        <input type="submit" value="Submit" name="submit-btn" id="submit-btn">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- FOOTER SECTION -->
+    <section id="footer-section">
+        <div id="social-links-section">
+            <a target="_blank" href="https://www.linkedin.com/in/rameez-siddiqui" class="social-links"><i class="fa-brands social-icons fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://twitter.com/siddrameez786" class="social-links"><i class="fa-brands social-icons fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/rameezsidd.me" class="social-links"><i class="fa-brands social-icons fa-instagram"></i></a>
+            <a target="_blank" href="https://api.whatsapp.com/send/?phone=918303263283&text&type=phone_number&app_absent=0" class="social-links"><i class="fa-brands social-icons fa-whatsapp"></i></a>
+        </div>
+        <div id="copyright-section">&copy; 2022 by Rameez Siddiqui | All Rights Reserved</div>
+
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+@media (max-width:969px){
+    #contact-container{
+        padding: 80px 50px;
+        display: grid;
+        row-gap: 40px;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+    }
+    #contact-details{
+        margin-top: 3px;
+    }
+    #contact-para{
+        max-width: 80%;
+    }
+}
+@media (max-width:703px){
+    #contact-container{
+        margin: 60px;
+    }
+}
+@media (max-width:703px){
+    #contact-container{
+        margin: 40px;
+    }
+}
+@media (max-width:554px){
+    #other-pages-welcome-message-container{
+        background-attachment: scroll;
+    }
+    #contact-para{
+        max-width: 100%;
+    }
+    #contact-container{
+        margin: 20px;
+        padding: 80px 25px;
+    }
+    #contact-heading{
+        font-size: 2rem;
+    }
+}
+@media (max-width:440px){
+    #contact-container{
+        margin: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+#other-pages-welcome-message-container{
+    display: grid;
+    place-items: center;
+}
+#other-pages-welcome-message{
+    margin: 100px 0;
+    min-width: 72%;
+    max-width: 90%;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+}
