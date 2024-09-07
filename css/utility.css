@@ -82,6 +82,9 @@ a:link, a:visited{
 .fa-instagram:hover{
     color: #DD2A7B;
 }
+.fa-github:hover{
+    color: #7CE38B;
+}
 .fa-whatsapp:hover{
     color: #25D366;
 }

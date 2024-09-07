@@ -5,6 +5,10 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.img-0{
+    background: url("../images/project/project0.png");
+}
 .img-1{
     background: url("../images/project/project1.png");
 }
@@ -17,12 +21,15 @@
 .img-4{
     background: url("../images/project/project4.png");
 }
+
 .project-img-container{
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     /* min-height: 350px; */
 }
+
 #project-section{
     display: flex;
     align-items: center;
@@ -59,11 +66,18 @@
     font-size: 2.2rem;
 }
 
-.project-see-btn{
+.project-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-btns a {
     background-color: black;
-    padding: 8px 20px;
+    padding: 8px 12px;
     border-radius: 5px;
 }
-.project-see-btn:hover, .project-see-btn:active{
-    background-color: rgba(0, 0, 0, 0.555);
+
+.project-btns a:hover{
+    background-color: rgba(0, 0, 0, 0.718);
 }
